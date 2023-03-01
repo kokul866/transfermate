@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.pims.qa.listeners.ExtentReportListener"/>
+  </listeners>
+  <test parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.pims.qa.testcases.AntechTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="VerifyPatientNameinBanner"/>
+        </methods>
+      </class> <!-- com.pims.qa.testcases.AntechTest1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

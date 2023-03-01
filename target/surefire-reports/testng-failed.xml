@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.qa.listeners.ExtentReportListener"/>
+  </listeners>
+  <test parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.qa.testcases.SignUpTest">
+        <methods>
+          <include name="Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.SignUpTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

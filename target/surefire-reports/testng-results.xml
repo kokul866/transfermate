@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-25T12:27:43Z" name="Suite" finished-at="2023-02-25T12:35:38Z" duration-ms="475418">
+    <groups>
+    </groups>
+    <test started-at="2023-02-25T12:27:43Z" name="Test1" finished-at="2023-02-25T12:35:38Z" duration-ms="475418">
+      <class name="com.qa.testcases.SignUpTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:57:43Z" name="setUp" finished-at="2023-02-25T17:58:08Z" duration-ms="24702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_Account_Type_Banner_Alert()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:58:08Z" name="Verify_Account_Type_Banner_Alert" finished-at="2023-02-25T17:58:10Z" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Account_Type_Banner_Alert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:58:10Z" name="tearDown" finished-at="2023-02-25T17:58:13Z" duration-ms="3486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:58:13Z" name="setUp" finished-at="2023-02-25T17:58:35Z" duration-ms="21492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_Mobile_inputbox_only_allows_numbers()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:58:35Z" name="Verify_Mobile_inputbox_only_allows_numbers" finished-at="2023-02-25T17:58:40Z" duration-ms="5333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Mobile_inputbox_only_allows_numbers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:58:40Z" name="tearDown" finished-at="2023-02-25T17:58:43Z" duration-ms="3617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:58:44Z" name="setUp" finished-at="2023-02-25T17:59:10Z" duration-ms="26099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:59:10Z" name="Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types" data-provider="testdata" finished-at="2023-02-25T17:59:17Z" duration-ms="7200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Education]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ireland]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:59:17Z" name="tearDown" finished-at="2023-02-25T17:59:21Z" duration-ms="3620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:59:21Z" name="setUp" finished-at="2023-02-25T17:59:44Z" duration-ms="23479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:59:44Z" name="Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types" data-provider="testdata" finished-at="2023-02-25T17:59:52Z" duration-ms="7266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Individual]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singapore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:59:52Z" name="tearDown" finished-at="2023-02-25T17:59:53Z" duration-ms="1072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T17:59:53Z" name="setUp" finished-at="2023-02-25T18:00:18Z" duration-ms="25627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:00:18Z" name="Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types" data-provider="testdata" finished-at="2023-02-25T18:00:57Z" duration-ms="38726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Corporate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[United Kingdom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:00:57Z" name="tearDown" finished-at="2023-02-25T18:00:58Z" duration-ms="1289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:00:58Z" name="setUp" finished-at="2023-02-25T18:02:05Z" duration-ms="66656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:02:05Z" name="Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types" data-provider="testdata" finished-at="2023-02-25T18:02:29Z" duration-ms="23580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Partnership]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:02:29Z" name="tearDown" finished-at="2023-02-25T18:02:34Z" duration-ms="4964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:02:34Z" name="setUp" finished-at="2023-02-25T18:03:18Z" duration-ms="44691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:03:18Z" name="Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types" data-provider="testdata" finished-at="2023-02-25T18:03:22Z" duration-ms="3366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sole Trader]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[France]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_able_to_complete_the_sign_up_and_receive_activation_email_for_all_Account_types -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:03:22Z" name="tearDown" finished-at="2023-02-25T18:03:33Z" duration-ms="10962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:03:33Z" name="setUp" finished-at="2023-02-25T18:03:49Z" duration-ms="16520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_User_is_not_able_to_complete_the_sign_up_with_Country_where_payment_cannot_be_done()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:03:49Z" name="Verify_User_is_not_able_to_complete_the_sign_up_with_Country_where_payment_cannot_be_done" finished-at="2023-02-25T18:03:52Z" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_not_able_to_complete_the_sign_up_with_Country_where_payment_cannot_be_done -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:03:52Z" name="tearDown" finished-at="2023-02-25T18:03:59Z" duration-ms="6638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:03:59Z" name="setUp" finished-at="2023-02-25T18:04:18Z" duration-ms="19410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_User_is_not_able_to_enter_non_alphabatic_characters_in__firstName__lastName_inputbox()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:04:18Z" name="Verify_User_is_not_able_to_enter_non_alphabatic_characters_in__firstName__lastName_inputbox" finished-at="2023-02-25T18:04:29Z" duration-ms="10827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_not_able_to_enter_non_alphabatic_characters_in__firstName__lastName_inputbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:04:29Z" name="tearDown" finished-at="2023-02-25T18:04:35Z" duration-ms="5696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:04:35Z" name="setUp" finished-at="2023-02-25T18:04:44Z" duration-ms="9486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_User_is_not_able_to_sign_up_with_already_existing_email()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:04:44Z" name="Verify_User_is_not_able_to_sign_up_with_already_existing_email" finished-at="2023-02-25T18:04:59Z" duration-ms="14298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_not_able_to_sign_up_with_already_existing_email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:04:59Z" name="tearDown" finished-at="2023-02-25T18:05:02Z" duration-ms="3677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:05:02Z" name="setUp" finished-at="2023-02-25T18:05:11Z" duration-ms="8489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_User_is_not_able_to_sign_up_with_invalid_captcha()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:05:11Z" name="Verify_User_is_not_able_to_sign_up_with_invalid_captcha" finished-at="2023-02-25T18:05:14Z" duration-ms="2785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_not_able_to_sign_up_with_invalid_captcha -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:05:14Z" name="tearDown" finished-at="2023-02-25T18:05:14Z" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:05:14Z" name="setUp" finished-at="2023-02-25T18:05:23Z" duration-ms="9106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_User_is_not_able_to_sign_up_without_firstName__lastName_email_and_capcha()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:05:23Z" name="Verify_User_is_not_able_to_sign_up_without_firstName__lastName_email_and_capcha" finished-at="2023-02-25T18:05:30Z" duration-ms="6345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_not_able_to_sign_up_without_firstName__lastName_email_and_capcha -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:05:30Z" name="tearDown" finished-at="2023-02-25T18:05:31Z" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:05:31Z" name="setUp" finished-at="2023-02-25T18:05:37Z" duration-ms="6375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_User_is_not_able_to_sign_up_without_selecting_account_type()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:05:37Z" name="Verify_User_is_not_able_to_sign_up_without_selecting_account_type" finished-at="2023-02-25T18:05:38Z" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_not_able_to_sign_up_without_selecting_account_type -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.SignUpTest@368f2016]" started-at="2023-02-25T18:05:38Z" name="tearDown" finished-at="2023-02-25T18:05:38Z" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.SignUpTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
